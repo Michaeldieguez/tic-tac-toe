@@ -56,3 +56,47 @@ function ShapeAgain() {
   var canvas = document.getElementById("game-board")
   canvas.appendChild(circle)
 }
+
+function MakeAnotherShape() {
+  //code to create a shape
+  var circle = document.createElementNS(namespace, "circle")
+  circle.setAttribute("cx",160)
+  circle.setAttribute("cy", 148)
+  circle.setAttribute("r",25)
+  circle.setAttribute("fill","red")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+}
+
+function AnotherOne() {
+  //code to create a shape
+  var circle = document.createElementNS(namespace, "circle")
+  circle.setAttribute("cx",60)
+  circle.setAttribute("cy", 245)
+  circle.setAttribute("r",25)
+  circle.setAttribute("fill","red")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+}
+
+function OneMore() {
+  //code to create a shape
+  var circle = document.createElementNS(namespace, "circle")
+  circle.setAttribute("cx",160)
+  circle.setAttribute("cy", 245)
+  circle.setAttribute("r",25)
+  circle.setAttribute("fill","blue")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+}
+
+function LastShape() {
+  //code to create a shape
+  var circle = document.createElementNS(namespace, "circle")
+  circle.setAttribute("cx",255)
+  circle.setAttribute("cy", 245)
+  circle.setAttribute("r",25)
+  circle.setAttribute("fill","red")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+}
